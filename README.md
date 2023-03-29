@@ -23,10 +23,12 @@ npm start
 ```
 ### Usage
 #### Endpoints
-GET /api/getAllDonors
+GET /api/getAllDonors  
+
 This endpoint returns a list of all donors.
 
-POST /api/register
+POST /api/register  
+
 This endpoint registers a new donor.
 
 Request Body
@@ -39,7 +41,8 @@ Request Body
 }
 ```
 
-POST /api/requestBlood
+POST /api/requestBlood  
+
 This endpoint posts a new blood request.
 
 ```
@@ -51,6 +54,7 @@ This endpoint posts a new blood request.
     "hospital": "KC general"
 }
 ```
-GET /api/getAllPatients
+GET /api/getAllPatients  
+
 This endpoint returns a list of all blood requests.
 
